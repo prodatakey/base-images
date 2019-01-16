@@ -29,6 +29,20 @@ RUN curl -SLO "http://resin-packages.s3.amazonaws.com/tini/v0.14.0/tini0.14.0.li
   && chmod +x tini \
   && mv tini /sbin/tini
 
+RUN mkdir -p /.resin && echo $'\n\
+ __      ___   ___ _  _ ___ _  _  ___ \n\
+ \ \    / /_\ | _ \ \| |_ _| \| |/ __|\n\
+  \ \/\/ / _ \|   / .` || || .` | (_ |\n\
+   \_/\_/_/ \_\_|_\_|\_|___|_|\_|\___|\n\
+======================================\n\
+resin base images have been deprecated\n\
+in favour of the new balenalib images,\n\
+read more about it in our docs:\n\
+https://www.balena.io/docs/reference/base-images/base-images/\n\
+======================================' > /.resin/deprecation-warning
+
+ONBUILD RUN cat /.resin/deprecation-warning
+
 # For backward compatibility, udev is enabled by default
 ENV UDEV on
 
