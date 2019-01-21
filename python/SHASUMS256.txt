@@ -211,7 +211,7 @@ db7bd457590ecc973665e8a8cf2e1f6df95b51b031f0b30fa80c4da7c1b3317b  Python-3.6.5.l
 f83ae3752db8acde2f73d100d1c401e00a5d4e604bc248c51fc87d5b76a5aa32  Python-3.6.5.linux-armv7hf.tar.gz
 
 c58d1e996c8fa109a0afba0bfaba356dd254ef754253c715fe8100f8d924188c  Python-2.7.15.linux-armel.tar.gz
-7527d9054eaa92afcb31aa62f192d88beefc0da00d8aad94d4e3f2f2e9ab6723  Python-2.7.15.linux-armv6hf.tar.gz
+ac983a2567085eee1100b3c14b8d962def10238ed356de4b1615f7b536ab0a59  Python-2.7.15.linux-armv6hf.tar.gz
 22f786437dca37f2dd12343e3fdc5abca62a709e8d18af96a90eeb18f5ea1ec5  Python-2.7.15.linux-armv7hf.tar.gz
 e024a00030510e0206bd2b2f6eaeb396f25f06d84384539c9d6d626c78759146  Python-2.7.15.linux-amd64.tar.gz
 71a75a25a2704997fc9467502587acf9c1381ae19262c9099fd9ef97de74a97a  Python-2.7.15.linux-i386.tar.gz
